@@ -65,3 +65,4 @@ class DoublyLinkedList:
             if slow == fast:
                 return True
         return False
+        
