@@ -1,1 +1,19 @@
 
+if __name__ == "__main__":
+    dll = DoublyLinkedList()
+
+    # Adding nodes
+    dll.append(10)
+    dll.append(20)
+    dll.append(30)
+    dll.prepend(5)
+
+    dll.display()  # Output: 5 <-> 10 <-> 20 <-> 30 <-> None
+
+    # Delete node
+    dll.delete(20)
+    dll.display()  # Output: 5 <-> 10 <-> 30 <-> None
+
+    # Manually create a cycle for testing
+    dll.head.next.next.next = dll.head.next
+    print("Cycle detected:", dll.detect_cycle())  # Output: True
