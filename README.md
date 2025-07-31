@@ -5,4 +5,4 @@
 ✅ Insert at the Beginning & End
 ✅ Delete Nodes.
 
-✅ Cycle Detection (Floyd's Algorithm)
+✅ Cycle Detection (Floyd's Algorithm).
