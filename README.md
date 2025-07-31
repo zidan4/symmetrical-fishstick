@@ -3,5 +3,5 @@
 ✅ Doubly Linked List Structure.
 
 ✅ Insert at the Beginning & End
-✅ Delete Nodes
+✅ Delete Nodes.
 ✅ Cycle Detection (Floyd's Algorithm)
